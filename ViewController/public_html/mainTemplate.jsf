@@ -107,7 +107,7 @@
                                          visible="false" styleClass="AFBrandingBarLogo AFBrandingLogo"
                                          rendered="#{attrs.logoSmallImagePath == null}"/>
                                 <af:panelGroupLayout id="title" layout="horizontal" styleClass="AFBrandingBarTitle">
-                                    <af:facetRef facetName="header"/>
+                                  
                                 </af:panelGroupLayout>
                             </af:panelGroupLayout>
                         </af:gridCell>
