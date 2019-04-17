@@ -3,7 +3,7 @@
 <f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
     <af:document title="testPage.jsf" id="d1">
         <af:form id="f1">
-            <af:pageTemplate viewId="/mainTemplate.jsf" value="#{bindings.ptb1}" id="pt1">
+            <af:pageTemplate viewId="/homeTamplate.jsf" value="#{bindings.ptb1}" id="pt1">
                 <f:facet name="header">
                     <af:outputText value="adlsa main page" id="ot1"/>
                 </f:facet>
