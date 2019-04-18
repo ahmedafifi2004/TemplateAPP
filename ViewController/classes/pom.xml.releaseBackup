@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>TemplateAPP</groupId>
   <artifactId>ViewController</artifactId>
-  <version>1.4</version>
+  <version>1.5-SNAPSHOT</version>
   <description>Generated POM from JDeveloper for project ViewController</description>
   <packaging>jar</packaging>
     <scm>
@@ -222,6 +222,7 @@
           <autoVersionSubmodules>true</autoVersionSubmodules>
           <tagNameFormat>@{project.version}</tagNameFormat>
           <releaseProfiles>release</releaseProfiles>
+          <pushChanges>false</pushChanges>
         </configuration>
       </plugin>
       <plugin>

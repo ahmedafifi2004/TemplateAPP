@@ -3,16 +3,17 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>TemplateAPP</groupId>
   <artifactId>ViewController</artifactId>
-  <version>1.4</version>
+  <version>1.6-SNAPSHOT</version>
   <description>Generated POM from JDeveloper for project ViewController</description>
   <packaging>jar</packaging>
+  
     <scm>
     <developerConnection>scm:git:https://github.com/ahmedafifi2004/TemplateAPP.git</developerConnection>
-    
      <connection>scm:git:https://github.com/ahmedafifi2004/TemplateAPP.git</connection>
- 
+     <url>https://github.com/ahmedafifi2004/TemplateAPP.git</url>
     <tag>1.4</tag>
   </scm>
+  
   <properties>
   <project.scm.id>ahmed</project.scm.id>
   </properties>
@@ -222,7 +223,8 @@
           <autoVersionSubmodules>true</autoVersionSubmodules>
           <tagNameFormat>@{project.version}</tagNameFormat>
           <releaseProfiles>release</releaseProfiles>
-          <pushChanges>false</pushChanges>
+          <tagBase>https://github.com/ahmedafifi2004/TemplateAPP.git</tagBase>
+         
         </configuration>
       </plugin>
       <plugin>
