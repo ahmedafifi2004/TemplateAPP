@@ -6,10 +6,11 @@
   <version>1.4</version>
   <description>Generated POM from JDeveloper for project ViewController</description>
   <packaging>jar</packaging>
-  
     <scm>
-
-    <developerConnection>scm:git:http://github.com/ahmedafifi2004/TemplateAPP.git</developerConnection>
+    <developerConnection>scm:git:https://github.com/ahmedafifi2004/TemplateAPP.git</developerConnection>
+    
+     <connection>scm:git:https://github.com/ahmedafifi2004/TemplateAPP.git</connection>
+ 
     <tag>1.4</tag>
   </scm>
   <properties>
