@@ -292,8 +292,6 @@
     <url>https://maven.oracle.com</url>
   </pluginRepository>
 </pluginRepositories>
-
-   
    <profiles>
    <profile>
       <id>releases</id>
@@ -340,8 +338,7 @@
       <repository> 
             <id>mycompany-repository</id> 
             <name>MyCompany Repository</name> 
-            <url>file://c:</url>
-            
+            <url>file://c:</url>    
         </repository> 
       </distributionManagement>
       
