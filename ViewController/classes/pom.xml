@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>TemplateAPP</groupId>
   <artifactId>ViewController</artifactId>
-  <version>1.11-SNAPSHOT</version>
+  <version>1.12-SNAPSHOT</version>
   <description>Generated POM from JDeveloper for project ViewController</description>
   <packaging>jar</packaging>
   
@@ -13,7 +13,6 @@
      <url>https://github.com/ahmedafifi2004/TemplateAPP.git</url>
     <tag>1.4</tag>
   </scm>
-  
   <properties>
   <project.scm.id>ahmed</project.scm.id>
   </properties>
