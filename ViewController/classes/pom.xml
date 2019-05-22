@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ADLSA</groupId>
   <artifactId>Template</artifactId>
-  <version>1.15-SNAPSHOT</version>
+  <version>1.15</version>
   <description>Generated POM from JDeveloper for project ViewController</description>
   <packaging>jar</packaging>
   
@@ -11,7 +11,7 @@
     <developerConnection>scm:git:https://github.com/ahmedafifi2004/TemplateAPP.git</developerConnection>
      <connection>scm:git:https://github.com/ahmedafifi2004/TemplateAPP.git</connection>
      <url>https://github.com/ahmedafifi2004/TemplateAPP.git</url>
-    <tag>1.4</tag>
+    <tag>1.15</tag>
   </scm>
   <properties>
   <project.scm.id>ahmed</project.scm.id>
