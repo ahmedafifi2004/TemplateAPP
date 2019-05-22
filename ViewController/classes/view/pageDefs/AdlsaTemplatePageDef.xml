@@ -2,8 +2,6 @@
 <pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.2.1.9.14" id="AdlsaTemplatePageDef"
                 Package="view.pageDefs">
   <parameters/>
-  <executables>
-    <variableIterator id="variables"/>
-  </executables>
+  <executables/>
   <bindings/>
 </pageDefinition>
