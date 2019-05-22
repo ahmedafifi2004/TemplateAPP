@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>TemplateAPP</groupId>
-  <artifactId>ViewController</artifactId>
+  <groupId>ADLSA</groupId>
+  <artifactId>Template</artifactId>
   <version>1.13-SNAPSHOT</version>
   <description>Generated POM from JDeveloper for project ViewController</description>
   <packaging>jar</packaging>
@@ -261,7 +261,18 @@
         </executions>
       </plugin>
     </plugins>
+    
   </build>
+   <distributionManagement>
+    <snapshotRepository>
+      <id>local.respository</id>
+      <url>http://192.168.17.20:8080/repository/local.respository/</url>
+    </snapshotRepository>
+    <repository>
+    <id>local.respository</id>
+      <url>http://192.168.17.20:8080/repository/local.respository/</url>
+    </repository>
+  </distributionManagement>
   <parent>
     <groupId>com.oracle.adf</groupId>
     <artifactId>adf-parent</artifactId>
@@ -269,10 +280,18 @@
     <relativePath />
   </parent>
 <repositories>
-<repository>
-<id>localDeploy</id>
-<url>file:///dev</url>
-</repository>
+ <repository>
+      <id>local.respository</id>
+      <name>local.respository</name>
+      <url>http://192.168.17.20:8080/repository/local.respository/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+
   <repository>
     <id>maven.oracle.com</id>
     <releases>
@@ -286,6 +305,17 @@
   </repository>
 </repositories>
 <pluginRepositories>
+ <pluginRepository>
+      <id>local.respository</id>
+      <name>local.respository</name>
+      <url>http://192.168.17.20:8080/repository/local.respository/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
   <pluginRepository>
     <id>maven.oracle.com</id>
     <url>https://maven.oracle.com</url>
@@ -301,22 +331,32 @@
                <artifactId>nexus-staging-maven-plugin</artifactId>
                <version>1.5.1</version>
                <executions>
+               
                   <execution>
                      <id>default-deploy</id>
                      <phase>deploy</phase>
+                     
                      <goals>
                         <goal>deploy</goal>
                      </goals>
+                     
                   </execution>
                </executions>
-               <configuration>
-                  <serverId>nexus-releases</serverId>
-                  <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
-                  <skipStaging>true</skipStaging>
-               </configuration>
+            
             </plugin>
          </plugins>
+         
       </build>
+       <distributionManagement>
+    <snapshotRepository>
+      <id>local.respository</id>
+      <url>http://192.168.17.20:8080/repository/local.respository/</url>
+    </snapshotRepository>
+    <repository>
+    <id>local.respository</id>
+      <url>http://192.168.17.20:8080/repository/local.respository/</url>
+    </repository>
+  </distributionManagement>
    </profile>
 
     <profile>
@@ -333,14 +373,17 @@
         
       </build>
       <distributionManagement>
-      
-      <repository> 
-            <id>mycompany-repository</id> 
-            <name>MyCompany Repository</name> 
-            <url>file://c:</url>    
-        </repository> 
-      </distributionManagement>
+    <snapshotRepository>
+      <id>local.respository</id>
+      <url>http://192.168.17.20:8080/repository/local.respository/</url>
+    </snapshotRepository>
+    <repository>
+    <id>local.respository</id>
+      <url>http://192.168.17.20:8080/repository/local.respository/</url>
+    </repository>
+  </distributionManagement>
       
     </profile>
   </profiles>
+  
 </project>
